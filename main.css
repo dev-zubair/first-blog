@@ -72,9 +72,9 @@ body{
                 border-bottom-right-radius: 50px; */
                 margin: 15px;
                 padding: 25px;
+                border-radius: 50px;
                 /* box-shadow: 15px 15px linen; */
             }
-    
     
     div h1, p{
         text-align: center;

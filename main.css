@@ -1,0 +1,111 @@
+body{
+        background-color: darkgray;
+        margin: 0 auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .nav{
+        background-color:blanchedalmond;
+        text-align: center;
+        }
+        .nav a{
+            list-style-type: none;
+            display: inline-block;
+            font-size: 20px;
+            font-weight: 700;
+            /* background-color: blueviolet; */
+            padding: 10px;
+            margin: 20px;
+            text-decoration: none;
+            color: black;
+                }
+
+        .nav a:hover{
+            background-color: cadetblue;
+            border-radius: 20px;
+        }
+
+    .headingtop{
+        background-color: cyan;
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 50px;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .banner{
+        margin: 20px 0px;
+    }
+
+    .maindiv{
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+                display: inline-block;
+                width: 25%;
+                background-color: burlywood;
+                /* border: 5px solid crimson; */
+                border-top-left-radius: 25px;
+                border-top-right-radius: 25px;
+                border-bottom-left-radius: 50px;
+                border-bottom-right-radius: 50px;
+                margin: 15px;
+                padding: 25px;
+                box-shadow: 15px 15px linen;
+                }
+    
+    .service {
+                display: inline-block;
+                width: 100%;
+                background: #004FF9;  /* fallback for old browsers */
+                background: -webkit-linear-gradient(to right, #FFF94C, #004FF9);  /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(to right, #FFF94C, #004FF9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+                /* border: 5px solid crimson; */
+                /* border-top-left-radius: 25px;
+                border-top-right-radius: 25px;
+                border-bottom-left-radius: 50px;
+                border-bottom-right-radius: 50px; */
+                margin: 15px;
+                padding: 25px;
+                /* box-shadow: 15px 15px linen; */
+            }
+    
+    
+    div h1, p{
+        text-align: center;
+    }
+
+    .para{
+        text-align: justify;
+    }
+    span{
+        color:darkmagenta;
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    img {
+        width: 100%;
+        }
+    
+    .himage { 
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    
+    .fotterbottom {
+        text-align: center;
+        background-color: black;
+        color: blanchedalmond;
+        font-size: small;
+        padding: 20px;
+        
+    }

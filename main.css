@@ -26,10 +26,14 @@ body{
         }
 
     .headingtop{
+        display: flex;
+        width: 50%;
         background-color: cyan;
+        justify-content: center;
         padding: 10px;
+        margin: 0 auto;
         margin-top: 20px;
-        border-radius: 50px;
+        border-radius: 20px;
     }
 
     h1{
@@ -80,6 +84,9 @@ body{
         text-align: center;
     }
 
+    h2{
+        text-align: center;
+    }
     .para{
         text-align: justify;
     }
